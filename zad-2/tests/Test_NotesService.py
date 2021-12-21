@@ -1,8 +1,7 @@
 import unittest
-from modules.NotesStorage import NotesStorage
 from modules.NotesService import NotesService
 from modules.Note import Note
-from unittest.mock import MagicMock, Mock, patch
+from unittest.mock import MagicMock, patch
 
 
 class Test_NotesService(unittest.TestCase):
